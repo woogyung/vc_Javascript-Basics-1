@@ -10,12 +10,25 @@
     2. `reverseArray.js`
     3. `reservedString.js`
     4. `commonFactors.js`
+    5. `largestNumber.js`
+    6. `secondLargestNumber.js`
 
 - 문제를 푸는 순서는 마음대로 하셔도 됩니다!
 
 - 각각의 문제에 대한 설명과 예제는 해당 파일에서 찾으실 수 있고, 차근 차근 생각을 잘 하시고 한번 풀어보세요!
 
 - 지금까지 배우신 loop이라던지, 기본적인 variable, array, object, string에 대한 개념만 있으면 충분히 풀수 있는 문제입니다!
+
+- 힌트
+
+    1. String값들은 서로 더할 수 있습니다. // 'a' + 'bc'  => 'abc'
+    2. Array에 추가 혹은 삭제를 위해선, 다음 method들을 참고하세요. (상세한 문서는 아래 MDN에서 검색!)
+        - Array.prototype.slice
+        - Array.prototype.splice
+        - Array.prototype.push
+        - Array.prototype.pop
+        - Array.prototype.shift
+        - Array.prototype.unshift
 
 **인터넷에서 자바스크립트 문서를 참고하실때는 항상 [Mozilla Developer Network](https://developer.mozilla.org/ko/docs/Web/JavaScript)를 사용하세요!**
 
