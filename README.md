@@ -20,15 +20,35 @@
 - 지금까지 배우신 loop이라던지, 기본적인 variable, array, object, string에 대한 개념만 있으면 충분히 풀수 있는 문제입니다!
 
 - 힌트
+```
+** Array **
 
-    1. String값들은 서로 더할 수 있습니다. // 'a' + 'bc'  => 'abc'
-    2. Array에 추가 혹은 삭제를 위해선, 다음 method들을 참고하세요. (상세한 문서는 아래 MDN에서 검색!)
-        - Array.prototype.slice
-        - Array.prototype.splice
-        - Array.prototype.push
-        - Array.prototype.pop
-        - Array.prototype.shift
-        - Array.prototype.unshift
+// Loop
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+
+// 배열 관련 참고 자료
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Array.prototype.slice
+Array.prototype.splice
+Array.prototype.push
+Array.prototype.pop
+Array.prototype.shift
+Array.prototype.unshift
+
+
+** String **
+
+// Loop
+for (var i = 0; i < str.length; i++) {
+    console.log(str[i]);
+}
+
+// 스트링 관련 참고 자료
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
+```
 
 **인터넷에서 자바스크립트 문서를 참고하실때는 항상 [Mozilla Developer Network](https://developer.mozilla.org/ko/docs/Web/JavaScript)를 사용하세요!**
 
