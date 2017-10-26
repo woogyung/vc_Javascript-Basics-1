@@ -1,30 +1,4 @@
 describe('2. 배열 뒤집기 (lib/reverseArray.js)', function () {
-    it('주어진 인자가 배열이 아닌 경우, 에러를 내야한다.', function () {
-        expect(function () {
-            reverseArray(3);
-        }).to.throw(Error);
-
-        expect(function () {
-            reverseArray("hello, I am wrong!");
-        }).to.throw(Error);
-
-        expect(function () {
-            reverseArray(null);
-        }).to.throw(Error);
-
-        expect(function () {
-            reverseArray();
-        }).to.throw(Error);
-
-        expect(function () {
-            reverseArray({});
-        }).to.throw(Error);
-
-        expect(function () {
-            reverseArray(function(){});
-        }).to.throw(Error);
-    });
-
     it('주어진 배열이 텅 비었을 경우, 뒤집은 배열은 결국 빈 배열이다.', function () {
         expect(reverseArray([])).to.eql([]);
     });

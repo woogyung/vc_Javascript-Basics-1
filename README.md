@@ -75,6 +75,3 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/St
   - node.js에는 npm(node package modules)라는 시스템이 존재합니다. 이 시스템을 이용하면 이 지구상의 누군가가 이미 만들고 npm에 등록해놓은 코드 패키지를 우리가 편하게 사용할 수 있는 것이랍니다!
   - package.json이란 파일을 보시면 devDependencies(혹은 dependencies)라는 부분에 우리가 필요로 하는 npm module들을 제가 적어놨습니다.
   - npm install이라는 명령어를 실행하게 되면, package.json에 나열된 npm module들이 우리 컴퓨터에 설치가 됩니다. 그래서 우리 컴퓨터에서 사용할 수 있게 되죠! 그래서 항상 npm을 이용하여 개발하는 프로젝트를 우리 컴퓨터에 새로 clone하였거나 설치하였을 경우, npm install이라는 명령어를 통해 작업 환경에 필요한 소프트웨어들을 설치하는 과정이 필요한 것이랍니다!
-  
-  
-test
