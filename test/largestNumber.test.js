@@ -1,5 +1,5 @@
 describe('5. 가장 큰 숫자 찾기 (lib/largestNumber.js)', function () {
-    it('주어진 배열이 텅 비었을 경우엔 null값을 리턴한다.', function () {
+    it('주어진 배열이 텅 비었을 경우엔 null값을 반환한다.', function () {
         expect(largestNumber([])).to.equal(null);
     });
 
@@ -11,7 +11,7 @@ describe('5. 가장 큰 숫자 찾기 (lib/largestNumber.js)', function () {
         expect(largestNumber([9])).to.equal(9);
     });
 
-    it('주어진 배열에서 가장 큰 숫자를 찾아서, 리턴하여야 한다.', function () {
+    it('주어진 배열에서 가장 큰 숫자를 찾아서, 반환하여야 한다.', function () {
         expect(largestNumber([1,2,3,4,5])).to.equal(5);
         expect(largestNumber([100, 98, 3, 39, 0, -10, 200])).to.equal(200);
         expect(largestNumber([23, 11, 39483, -2937, 833])).to.equal(39483);

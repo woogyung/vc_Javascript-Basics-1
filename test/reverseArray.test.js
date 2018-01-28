@@ -3,14 +3,14 @@ describe('2. 배열 뒤집기 (lib/reverseArray.js)', function () {
         expect(reverseArray([])).to.eql([]);
     });
 
-    it('주어진 배열에 한개의 아이템만 들어있을 경우, 뒤집은 배열은 그대로이다.', function () {
+    it('주어진 배열에 한개의 요소만 들어있을 경우, 뒤집은 배열은 기존 배열과 같은 배열이다.', function () {
         expect(reverseArray([1])).to.eql([1]);
         expect(reverseArray(['hello'])).to.eql(['hello']);
         expect(reverseArray([null])).to.eql([null]);
         expect(reverseArray([{}])).to.eql([{}]);
     });
 
-    it('주어진 배열속 아이템들의 순서를 거꾸로 뒤집어 리턴하여야 한다.', function () {
+    it('주어진 배열속 아이템들의 순서를 거꾸로 뒤집어 반환하여야 한다.', function () {
         expect(reverseArray([1,2,3,4,5])).to.eql([5,4,3,2,1]);
         expect(reverseArray([100, 'hello', 3, null])).to.eql([null, 3, 'hello', 100]);
         expect(reverseArray([null, 444, 49, undefined])).to.eql([undefined, 49, 444, null]);

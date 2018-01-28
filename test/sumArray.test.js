@@ -11,6 +11,7 @@ describe('1. 배열의 합 구하기 (lib/sumArray.js)', function () {
         expect(sumArray([9])).to.equal(9);
     });
 
+    // 오잉? 여기서 뭐하시는거죠? 흠.. 용케 잘 찾아오셨군요..
     // 에러처리 해보고 싶으시면 xit에서 x를 지우시고 해보세요.
     xit('주어진 배열에 숫자가 아닌 것이 있을 경우, 에러를 내야한다.', function () {
         expect(function () {
@@ -26,7 +27,7 @@ describe('1. 배열의 합 구하기 (lib/sumArray.js)', function () {
         }).to.throw(Error);
     });
 
-    it('주어진 배열의 모든 숫자의 합을 더하여, 리턴하여야 한다.', function () {
+    it('주어진 배열에 담긴 모든 숫자의 합을 구하여, 반환하여야 한다.', function () {
         expect(sumArray([1,2,3,4,5])).to.equal(15);
         expect(sumArray([100, 98, 3, 39, 0, -10, 200])).to.equal(430);
         expect(sumArray([23, 11, 39483, -2937, 833])).to.equal(37413);
